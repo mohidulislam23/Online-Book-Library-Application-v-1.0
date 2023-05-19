@@ -98,3 +98,8 @@ This is intended as a quick reference and showcase. For more complete info, see 
 | :-------- | :------- | :------------------------- |
 | `bookId` | `Long ` | Permitted for ADMIN  |
 
+
+## Authors
+
+- [@mohidulislam23](https://github.com/mohidulislam23)
+
