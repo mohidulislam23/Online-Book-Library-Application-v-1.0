@@ -1,6 +1,7 @@
 # Online-Book-Library-Application-v-1.0
 # Online-Book-Library-Application - Help
 
+
 ## API Reference
 
 #### User register
@@ -54,5 +55,43 @@
 | :-------- | :------- | :------------------------- |
 | `authorName` | `String ` | Permitted for ADMIN and CUSTOMER |
 
+#### Show book list by author name and book name
 
+```http
+  GET /books/author/{author}/{bookName}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `authorName, bookName` | `String, String ` | Permitted for ADMIN and CUSTOMER |
+
+#### Create Book Details
+
+```http
+  POST /books/create/
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `bookId, authorName, bookName` | `Long, String, String ` | Permitted for ADMIN  |
+
+#### Update a Book's Details
+
+```http
+  POST /books/update/{bookId}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `authorName, bookName` | `String, String ` | Permitted for ADMIN  |
+
+#### Delete a Book
+
+```http
+  POST /books/delete/{bookId}
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `bookId` | `Long ` | Permitted for ADMIN  |
 
