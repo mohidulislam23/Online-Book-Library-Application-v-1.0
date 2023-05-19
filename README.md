@@ -23,8 +23,12 @@ Create Database on MySQL:
   git clone git@github.com:mohidulislam23/Online-Book-Library-Application-v-1.0.git;
 ```
 
-### Run the SecurityModuleApp
+### Run the SecurityModuleApplication
+ Select SecurityModuleApplication and run it. It will Create ``users`` and ``books`` tables in ``library`` Database. 
 
+### API Access
+ You can Access the api using api access software like [Postman](https://www.postman.com/downloads/) , [isomania](https://insomnia.rest/download). See example from ``demo imgs`` and ``demo data`` folder.
+ 
 
 ## API Reference
 
