@@ -1,0 +1,24 @@
+{
+  "authorName": "Humayun Ahmed",
+  "bookName": "Deyal"
+}
+
+{
+  "authorName": "Jhumpa Lahiri",
+  "bookName": "The Namesake"
+}
+
+{
+  "authorName": "Taslima Nasrin",
+  "bookName": "Lajja"
+}
+
+{
+  "authorName": "Dan Brown",
+  "bookName": "The Da Vinci Code"
+}
+
+{
+  "authorName": "Muhammad Zafar Iqbal",
+  "bookName": "Amar Bondhu Rashed"
+}

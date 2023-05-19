@@ -1,0 +1,91 @@
+{
+  "firstName": "Rahim",
+  "lastName": "Khan",
+  "email": "rahim.khan@bjitacademy.com",
+  "password": "password1",
+  "address": "Dhaka, Bangladesh",
+  "role": "ADMIN"
+}
+
+{
+  "firstName": "Karim",
+  "lastName": "Ali",
+  "email": "karim.ali@gmail.com",
+  "password": "password2",
+  "address": "Chittagong, Bangladesh",
+  "role": "CUSTOMER"
+}
+
+{
+  "firstName": "Ayesha",
+  "lastName": "Haque",
+  "email": "ayesha.haque@bjitacademy.com",
+  "password": "password3",
+  "address": "Dhaka, Bangladesh",
+  "role": "ADMIN"
+}
+
+{
+  "firstName": "Sohel",
+  "lastName": "Ahmed",
+  "email": "sohel.ahmed@gmail.com",
+  "password": "password4",
+  "address": "Khulna, Bangladesh",
+  "role": "CUSTOMER"
+}
+
+{
+  "firstName": "Nadia",
+  "lastName": "Islam",
+  "email": "nadia.islam@bjitacademy.com",
+  "password": "password5",
+  "address": "Rajshahi, Bangladesh",
+  "role": "ADMIN"
+}
+
+{
+  "firstName": "Abdul",
+  "lastName": "Rahman",
+  "email": "abdul.rahman@gmail.com",
+  "password": "password6",
+  "address": "Dhaka, Bangladesh",
+  "role": "CUSTOMER"
+}
+
+{
+  "firstName": "Farah",
+  "lastName": "Kabir",
+  "email": "farah.kabir@bjitacademy.com",
+  "password": "password7",
+  "address": "Sylhet, Bangladesh",
+  "role": "ADMIN"
+}
+
+{
+  "firstName": "Kamal",
+  "lastName": "Hossain",
+  "email": "kamal.hossain@gmail.com",
+  "password": "password8",
+  "address": "Dhaka, Bangladesh",
+  "role": "CUSTOMER"
+}
+
+{
+  "firstName": "Nisha",
+  "lastName": "Chowdhury",
+  "email": "nisha.chowdhury@bjitacademy.com",
+  "password": "password9",
+  "address": "Dhaka, Bangladesh",
+  "role": "ADMIN"
+}
+
+{
+  "firstName": "Rahima",
+  "lastName": "Akhtar",
+  "email": "rahima.akhtar@gmail.com",
+  "password": "password10",
+  "address": "Chittagong, Bangladesh",
+  "role": "CUSTOMER"
+}
+
+
