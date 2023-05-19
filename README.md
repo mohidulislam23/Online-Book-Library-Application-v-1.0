@@ -24,7 +24,8 @@ Create Database on MySQL:
 ```
 
 ### Run the SecurityModuleApplication
- Select SecurityModuleApplication and run it. It will Create ``users`` and ``books`` tables in ``library`` Database. 
+ Select SecurityModuleApplication from ``Online-Book-Library-Application-v-1.0/LibraryApplication/src/main/java/com/bjitacademy
+/securityModule`` and run it. It will Create ``users`` and ``books`` tables in ``library`` Database. 
 
 ### API Access
  You can Access the api using api access software like [Postman](https://www.postman.com/downloads/) , [isomania](https://insomnia.rest/download). See example from ``demo imgs`` and ``demo data`` folder.
