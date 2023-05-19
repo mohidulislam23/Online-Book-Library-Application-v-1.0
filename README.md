@@ -1,6 +1,9 @@
 # Online-Book-Library-Application-v-1.0
 # Online-Book-Library-Application - Help
 
+# Library Application
+
+This is intended as a quick reference and showcase. For more complete info, see the [Github-info page.](https://github.com/mohidulislam23/Online-Book-Library-Application-v-1.0) 
 
 ## API Reference
 
