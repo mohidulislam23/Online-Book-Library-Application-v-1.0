@@ -55,6 +55,8 @@ To deploy this project run
 | :-------- | :------- | :------------------------- |
 | `email, password` | `JSON` | Permitted for all |
 
+*** Authentication token will be generated in the Body of api software terminal
+
 
 #### Show book list
 
@@ -66,6 +68,8 @@ To deploy this project run
 | :-------- | :------- | :------------------------- |
 | `Authentication Token` | `Header ` | Permitted for ADMIN and CUSTOMER |
 
+*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+
 #### Show book list by bookId
 
 ```http
@@ -75,6 +79,10 @@ To deploy this project run
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `bookId` | `Long ` | Permitted for ADMIN and CUSTOMER |
+| `Authentication Token` | `Header ` | Permitted for ADMIN and CUSTOMER |
+
+*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+
 
 #### Show book list by author name
 
@@ -85,6 +93,11 @@ To deploy this project run
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `authorName` | `String ` | Permitted for ADMIN and CUSTOMER |
+| `Authentication Token` | `Header ` | Permitted for ADMIN and CUSTOMER |
+
+*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+
+
 
 #### Show book list by author name and book name
 
@@ -95,6 +108,10 @@ To deploy this project run
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `authorName, bookName` | `String, String ` | Permitted for ADMIN and CUSTOMER |
+| `Authentication Token` | `Header ` | Permitted for ADMIN |
+
+*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+
 
 #### Create Book Details
 
@@ -105,6 +122,10 @@ To deploy this project run
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `bookId, authorName, bookName` | `Long, String, String ` | Permitted for ADMIN  |
+| `Authentication Token` | `Header ` | Permitted for ADMIN |
+
+*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+
 
 #### Update a Book's Details
 
@@ -115,6 +136,10 @@ To deploy this project run
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `authorName, bookName` | `String, String ` | Permitted for ADMIN  |
+| `Authentication Token` | `Header ` | Permitted for ADMIN  |
+
+*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+
 
 #### Delete a Book
 
@@ -125,6 +150,10 @@ To deploy this project run
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
 | `bookId` | `Long ` | Permitted for ADMIN  |
+| `Authentication Token` | `Header ` | Permitted for ADMIN |
+
+*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+
 
 
 ## Authors
