@@ -11,9 +11,7 @@ This is intended as a quick reference and showcase. For more complete info, see 
 To deploy this project run
 
 ### Database
-
-Create Database on MySQL:
-
+  Create Database on MySQL:
 ```bash
   CREATE DATABASE library;
 ```
@@ -22,10 +20,14 @@ Create Database on MySQL:
 ```bash
   git clone git@github.com:mohidulislam23/Online-Book-Library-Application-v-1.0.git;
 ```
-
+### Prerequisite
+    1. Intelij IDE
+    2. Java version-17 (or upper)
+    3. Gradle version-8.0.1 (or upper)
+    4. MySQL Server (MySQL Workbanch)
 ### Run the SecurityModuleApplication
- Select SecurityModuleApplication from ``Online-Book-Library-Application-v-1.0/LibraryApplication/src/main/java/com/bjitacademy
-/securityModule`` and run it. It will Create ``users`` and ``books`` tables in ``library`` Database. 
+ Select SecurityModuleApplication from ``Online-Book-Library-Application-v-1.0/LibraryApplication/src/main/java/com/bjitacademy/securityModule`` and run it.
+ It will Create ``users`` and ``books`` tables in ``library`` Database. 
 
 ### API Access
  You can Access the api using api access software like [Postman](https://www.postman.com/downloads/) , [isomania](https://insomnia.rest/download). See example from ``demo imgs`` and ``demo data`` folder.
