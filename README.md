@@ -5,6 +5,27 @@
 
 This is intended as a quick reference and showcase. For more complete info, see the [Github-info page.](https://github.com/mohidulislam23/Online-Book-Library-Application-v-1.0) 
 
+
+## Deployment
+
+To deploy this project run
+
+### Database
+
+Create Database on MySQL:
+
+```bash
+  CREATE DATABASE library;
+```
+### Clone the LibraryApplication and others in a local repository
+ 
+```bash
+  git clone git@github.com:mohidulislam23/Online-Book-Library-Application-v-1.0.git;
+```
+
+### Run the SecurityModuleApp
+
+
 ## API Reference
 
 #### User register
