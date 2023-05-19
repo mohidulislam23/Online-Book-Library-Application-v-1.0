@@ -26,7 +26,7 @@ To deploy this project run
     3. Gradle version-8.0.1 (or upper)
     4. MySQL Server (MySQL Workbanch)
 ### Run the SecurityModuleApplication
- Select SecurityModuleApplication from ``Online-Book-Library-Application-v-1.0/LibraryApplication/src/main/java/com/bjitacademy
+ Open LibraryApplication in Intelij as a project. Make sure your ``library`` database has been created and the server is running on. According to your server update the servername and password at ``Online-Book-Library-Application-v-1.0/LibraryApplication/src/main/resources/application.properties``. Select SecurityModuleApplication from ``Online-Book-Library-Application-v-1.0/LibraryApplication/src/main/java/com/bjitacademy
  /securityModule`` and run it. It will Create ``users`` and ``books`` tables in ``library`` Database. 
 
 ### API Access
