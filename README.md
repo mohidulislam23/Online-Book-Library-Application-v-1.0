@@ -68,7 +68,7 @@ To deploy this project run
 | :-------- | :------- | :------------------------- |
 | `Authentication Token` | `Header ` | Permitted for ADMIN and CUSTOMER |
 
-*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+*** Copy the Authentication token and pest it on the Header taking a key ``Authorization`` with the value of ``Bearer **code**``
 
 #### Show book list by bookId
 
@@ -81,7 +81,7 @@ To deploy this project run
 | `bookId` | `Long ` | Permitted for ADMIN and CUSTOMER |
 | `Authentication Token` | `Header ` | Permitted for ADMIN and CUSTOMER |
 
-*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+*** Copy the Authentication token and pest it on the Header taking a key ``Authorization`` with the value of ``Bearer **code**``
 
 
 #### Show book list by author name
@@ -95,7 +95,7 @@ To deploy this project run
 | `authorName` | `String ` | Permitted for ADMIN and CUSTOMER |
 | `Authentication Token` | `Header ` | Permitted for ADMIN and CUSTOMER |
 
-*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+*** Copy the Authentication token and pest it on the Header taking a key ``Authorization`` with the value of ``Bearer **code**``
 
 
 
@@ -110,7 +110,7 @@ To deploy this project run
 | `authorName, bookName` | `String, String ` | Permitted for ADMIN and CUSTOMER |
 | `Authentication Token` | `Header ` | Permitted for ADMIN |
 
-*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+*** Copy the Authentication token and pest it on the Header taking a key ``Authorization`` with the value of ``Bearer **code**``
 
 
 #### Create Book Details
@@ -124,7 +124,7 @@ To deploy this project run
 | `bookId, authorName, bookName` | `Long, String, String ` | Permitted for ADMIN  |
 | `Authentication Token` | `Header ` | Permitted for ADMIN |
 
-*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+*** Copy the Authentication token and pest it on the Header taking a key ``Authorization`` with the value of ``Bearer **code**``
 
 
 #### Update a Book's Details
@@ -138,7 +138,7 @@ To deploy this project run
 | `authorName, bookName` | `String, String ` | Permitted for ADMIN  |
 | `Authentication Token` | `Header ` | Permitted for ADMIN  |
 
-*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+*** Copy the Authentication token and pest it on the Header taking a key ``Authorization`` with the value of ``Bearer **code**``
 
 
 #### Delete a Book
@@ -152,7 +152,7 @@ To deploy this project run
 | `bookId` | `Long ` | Permitted for ADMIN  |
 | `Authentication Token` | `Header ` | Permitted for ADMIN |
 
-*** Copy the Authentication token and pest it on the Header taking a key ``Authororize`` with the value of ``Bearer **code**``
+*** Copy the Authentication token and pest it on the Header taking a key ``Authorization`` with the value of ``Bearer **code**``
 
 
 
